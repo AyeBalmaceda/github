@@ -1,0 +1,25 @@
+*´{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{font-family: Arial, Helvetica, sans-serif;}
+
+main{background-color: black;
+    height: 400px;
+    width: 600px;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;}
+
+.caja{width: 150px;
+     height: 150px;
+     margin: 0.5rem;
+     }
+.azul{background-color: blue;}
+.verde{background-color:green;}
+.rojo{background-color: red;}
+.amarillo{background-color:yellow;}
+.fucsia{background-color: fuchsia;}
+.gris{background-color: grey;}

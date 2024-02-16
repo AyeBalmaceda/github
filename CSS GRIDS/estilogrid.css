@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.contenedor{
+    width: 90%;
+    background-color: white;
+    height: 80vh;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    column-gap: 15px;
+    row-gap: 5px; 
+    grid-template-areas:"ab ab c" "d ef ef";
+}
+.hijo{border: 2px solid red;}
+
+.ab{grid-area: ab;
+    background-color: blueviolet;}
+.c{ grid-area: c;
+    background-color: rgb(42, 183, 208);}
+.d{ grid-area: d;
+    background-color: cadetblue;}
+.ef{ grid-area: ef;
+    background-color: plum;}

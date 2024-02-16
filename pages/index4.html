@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./fotos/favicon-32x32.png">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <head>
+        <h1>Formularios</h1>
+    </head>
+    <main>
+        <form action="">
+            
+            <div>
+                <label for="name"> Escribe tu nombre</label>
+                <input type="text" name="name" placeholder="Juan">
+            </div>
+            <br>
+            <div>
+                <label for="surname"> Escribe tu apellido</label>
+                <input type="text" surname="surname" placeholder="Perez">
+            </div>
+            <br>
+            <div>
+                <label for="mail"> *Email</label>
+                <input type="email" mail="mail" required> <!--required es que si o si se necesita ese dato y no se puede escribir cualquier cosa-->
+            </div>
+            <div>
+                <label for="pass"> Password</label>
+                <input type="password" surname="surname" placeholder="Perez">
+            </div>
+            <br>
+            <div>
+            <br>
+            <div>
+                <label for="pais">Nacionalidad</label>
+                <select name="nac" id="" required>
+                    <option value="Argentina">Argentina</option> 
+                    <option value="uruguay">uruguay</option> 
+                    <option value="chile">Chile</option> 
+                    <option value="Brasil">Brasil</option> 
+            </div>
+            <br>
+            <div>
+                    <label for="sexo">Genero</label><br>
+                    <input type="radio" name="sexo" value="mujer">mujer
+                    <input type="radio" name="sexo" value="hombre">hombre
+                    <input type="radio" name="sexo" value="no binario">no binario
+            </div>
+            <br>
+            <div>
+                    <label for="terminos">Acepto terminos y condiciones</label><br>
+                    <input type="checkbox" name="terminos" value="1">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar Datos">
+                <input type="submit" value="Borrar formulario">
+            </div>
+
+
+        </form>
+
+
+
+    </main>
+</body>
+</html>
